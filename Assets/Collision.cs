@@ -4,7 +4,7 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     [SerializeField] Color32 hasPackageColor = new Color32(1,1,1,1);
-    [SerializeField] Color32 noPackageColor = new Color32(0,0,0,0);
+    [SerializeField] Color32 noPackageColor = new Color32(0,0,0,1);
     bool hasPackage = false;
     SpriteRenderer spriteRenderer;
 
